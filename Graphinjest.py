@@ -37,7 +37,12 @@ def load_graph(path):
 
             if u not in graph:
                 graph[u] = {}
+            if v not in graph:
+                graph[v] = {}
             graph[u][v] = val
+
+            if u not in graph[v]:
+                graph[v][u] = 0
     return graph
 
 def print_graph(graph):
