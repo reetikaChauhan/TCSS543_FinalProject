@@ -1,4 +1,5 @@
-
+import sys
+import time
 from Graphinjest import load_graph;
 
 def augmentedPath(residualgraph,s,t):
@@ -43,9 +44,19 @@ def fordFulkerson(graph):
 
     return maxflow
 
-    
-graph = load_graph('FixedDegree/100v-5out-25min-200max.txt')
-print(fordFulkerson(graph))
+input_file = sys.argv[1]
+graph = load_graph(input_file)
+# Compute max flow
+print(f"\nComputing maximum flow from 's' to 't' using FordFulkerson...")
+start_time = time.time()
+max_flow_value = fordFulkerson(graph)
+end_time = time.time()
+elapsed = end_time - start_time
+print(f"\n{'='*50}")
+print(f"Maximum Flow: {max_flow_value}")
+print(f"Time: {elapsed:.6f} seconds")
+print(f"{'='*50}\n")
+
 
 
 
