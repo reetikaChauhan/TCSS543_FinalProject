@@ -24,7 +24,7 @@ def fordFulkerson(graph):
         residualgraph[u] = {}
         for v in graph[u]:
             residualgraph[u][v] = graph[u][v]
-           
+    # adding reverse edges       
     for u in list(residualgraph.keys()):
         for v in list(residualgraph[u].keys()):
             if v not in residualgraph:
