@@ -70,31 +70,6 @@ python Algorithms/PreflowPush.py Mesh/smallMesh.txt --stats --count-paths
 python Algorithms/PreflowPush.py Mesh/smallMesh.txt --quiet
 ```
 
----
-
-## Input Graph Format
-
-All graph files use the following format:
-
-```
-<from-node> <to-node> <capacity>
-```
-
-Each line represents a directed edge from `<from-node>` to `<to-node>` with the specified `<capacity>`.
-
-**Example:**
-```
-s 1 15
-1 2 20
-2 t 10
-```
-
-- Source vertex is always named `s`
-- Sink vertex is always named `t`
-- Internal vertices can have any naming scheme (numbers, coordinates, labels)
-
----
-
 ## How the Preflow-Push Algorithm Works
 
 ### Algorithm Overview
@@ -265,18 +240,23 @@ TCSS543_FinalProject/
 
 All original test cases pass with **100% accuracy**:
 
-| Graph File | Vertices | Edges | Expected | Actual | Status |
-|------------|----------|-------|----------|--------|--------|
-| Random/n10-m10-cmin5-cmax10-f30.txt | 11 | 30 | 25 | 25 | ✓ PASS |
-| Random/n100-m100-cmin10-cmax20-f949.txt | 101 | 500 | 949 | 949 | ✓ PASS |
-| Mesh/smallMesh.txt | 14 | 31 | 6 | 6 | ✓ PASS |
-| Mesh/mediumMesh.txt | 202 | 800 | 39 | 39 | ✓ PASS |
-| Bipartite/g1.txt | 32 | 200 | 150 | 150 | ✓ PASS |
-| Bipartite/g2.txt | 72 | 900 | 898 | 898 | ✓ PASS |
-| FixedDegree/20v-3out-4min-355max.txt | 22 | 60 | 368 | 368 | ✓ PASS |
-| FixedDegree/100v-5out-25min-200max.txt | 102 | 500 | 517 | 517 | ✓ PASS |
+| Graph File | Vertices | Edges | Space Complexity | s-t Paths | Expected | Actual | Status |
+|------------|----------|-------|------------------|-----------|----------|--------|--------|
+| Random/n10-m10-cmin5-cmax10-f30.txt | 11 | 46 | O(11 + 46) | 953 | 25 | 25 | ✓ PASS |
+| Random/n100-m100-cmin10-cmax20-f949.txt | 101 | 6,844 | O(101 + 6844) | >10,000 | 949 | 949 | ✓ PASS |
+| Mesh/smallMesh.txt | 14 | 31 | O(14 + 31) | 243 | 6 | 6 | ✓ PASS |
+| Mesh/mediumMesh.txt | 202 | 570 | O(202 + 570) | >10,000 | 39 | 39 | ✓ PASS |
+| Bipartite/g1.txt | 32 | 230 | O(32 + 230) | 200 | 150 | 150 | ✓ PASS |
+| Bipartite/g2.txt | 72 | 640 | O(72 + 640) | 570 | 898 | 898 | ✓ PASS |
+| FixedDegree/20v-3out-4min-355max.txt | 22 | 66 | O(22 + 66) | >10,000 | 368 | 368 | ✓ PASS |
+| FixedDegree/100v-5out-25min-200max.txt | 102 | 510 | O(102 + 510) | >10,000 | 517 | 517 | ✓ PASS |
 
 **Success Rate**: 8/8 (100%)
+
+**Notes:**
+- Space Complexity represents total space for graph storage and algorithm overhead: O(V + E)
+- s-t Paths shows the number of simple paths from source to sink
+- ">10,000" indicates the path count exceeded the enumeration limit (actual count is higher)
 
 ---
 
@@ -400,9 +380,3 @@ All with randomized parameters for comprehensive testing.
   - Chapter 7.4: Preflow-Push Algorithm
 
 ---
-
-## Author
-
-TCSS 543A: Advanced Algorithms - Final Project
-University of Washington Tacoma
-Fall 2025
