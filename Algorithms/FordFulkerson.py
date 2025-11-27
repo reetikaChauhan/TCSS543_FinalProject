@@ -45,7 +45,7 @@ def fordFulkerson(graph):
     return maxflow
 
 input_file = sys.argv[1]
-graph = load_graph(input_file)
+graph, num_nodes, edge_count = load_graph(input_file)
 # Compute max flow
 print(f"\nComputing maximum flow from 's' to 't' using FordFulkerson...")
 start_time = time.time()
@@ -55,6 +55,8 @@ elapsed = end_time - start_time
 print(f"\n{'='*50}")
 print(f"Maximum Flow: {max_flow_value}")
 print(f"Time: {elapsed:.6f} seconds")
+print(f"Nodes: {num_nodes}")
+print(f"Edges: {edge_count}")
 print(f"{'='*50}\n")
 
 

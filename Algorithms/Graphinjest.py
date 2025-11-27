@@ -23,6 +23,7 @@ augment(f, P)
 '''
 def load_graph(path):
     graph = {}
+    edge_count = 0
 
     with open(path, "r") as f:
         for line_num, line in enumerate(f, start=1):
@@ -34,16 +35,19 @@ def load_graph(path):
                 )
 
             u, v, val = parts[0], parts[1], int(parts[2])
-
+            # Create nodes if not existing
             if u not in graph:
                 graph[u] = {}
             if v not in graph:
                 graph[v] = {}
             graph[u][v] = val
+            edge_count += 1   # count number of input edges
 
             if u not in graph[v]:
                 graph[v][u] = 0
-    return graph
+
+    num_nodes = len(graph)
+    return graph, num_nodes, edge_count
 
 def print_graph(graph):
     print("\nGraph Adjacency List\n")
@@ -60,5 +64,7 @@ if __name__ == "__main__":
         sys.exit(1)
 
     path = sys.argv[1]
-    graph = load_graph(path)
+    graph, nodes, edges = load_graph(path)
     print_graph(graph)
+    print("Nodes:", nodes)
+    print("Edges:", edges)
