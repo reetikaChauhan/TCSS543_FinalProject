@@ -26,6 +26,11 @@ augment(f, P)
 import sys
 import tracemalloc
 import time
+import os
+# Add the parent directory (Algorithms) to the module search path so graphinjest loads
+parent_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+if parent_dir not in sys.path:
+    sys.path.append(parent_dir)
 from Graphinjest import load_graph;
 
 def augmentedPath(residualgraph,s,t):
