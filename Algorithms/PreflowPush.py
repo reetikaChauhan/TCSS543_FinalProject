@@ -16,6 +16,7 @@ Key Data Structures:
 """
 
 from collections import defaultdict, deque
+import sys
 
 
 def load_graph(path):
@@ -216,6 +217,161 @@ class PreflowPush:
         return self.excess[self.sink]
 
 
+def count_edges(graph):
+    """
+    Count the number of edges in the graph (only edges with positive capacity)
+
+    Args:
+        graph: Adjacency list with capacities
+
+    Returns:
+        Number of edges with positive capacity
+    """
+    edge_count = 0
+    for u in graph:
+        for v in graph[u]:
+            if graph[u][v] > 0:
+                edge_count += 1
+    return edge_count
+
+
+def calculate_space_complexity(graph):
+    """
+    Calculate space complexity of the graph representation
+
+    Returns:
+        Dictionary with space complexity breakdown
+    """
+    num_vertices = len(graph)
+    num_edges = count_edges(graph)
+
+    # Space for adjacency list: O(V + E)
+    # Each vertex: pointer + data
+    # Each edge: neighbor reference + capacity value
+    vertex_space = num_vertices * 2  # vertex key + dict object
+    edge_space = num_edges * 2       # neighbor key + capacity value
+
+    # Additional space for algorithm:
+    # - flow dict: O(E)
+    # - excess array: O(V)
+    # - height array: O(V)
+    algorithm_space = num_edges * 2 + num_vertices * 2
+
+    total_space = vertex_space + edge_space + algorithm_space
+
+    return {
+        'vertices': num_vertices,
+        'edges': num_edges,
+        'graph_space_O': f"O({num_vertices} + {num_edges})",
+        'algorithm_space_O': f"O({num_vertices} + {num_edges})",
+        'total_space_O': f"O({num_vertices} + {num_edges})",
+        'estimated_bytes': total_space * 8  # Assuming 8 bytes per unit
+    }
+
+
+def count_st_paths(graph, source, sink, max_paths=None):
+    """
+    Count all simple paths from source to sink using DFS
+
+    WARNING: This can be exponential for dense graphs!
+    Set max_paths to limit the search.
+
+    Args:
+        graph: Adjacency list with capacities
+        source: Source vertex
+        sink: Sink vertex
+        max_paths: Maximum number of paths to find (None = unlimited)
+
+    Returns:
+        Tuple of (number_of_paths, list_of_paths or None if max_paths exceeded)
+    """
+    paths = []
+    visited = set()
+
+    def dfs(node, path):
+        if max_paths and len(paths) >= max_paths:
+            return
+
+        if node == sink:
+            paths.append(path[:])
+            return
+
+        visited.add(node)
+
+        for neighbor in graph.get(node, {}):
+            # Only follow edges with positive capacity
+            if graph[node][neighbor] > 0 and neighbor not in visited:
+                path.append(neighbor)
+                dfs(neighbor, path)
+                path.pop()
+
+        visited.remove(node)
+
+    dfs(source, [source])
+
+    return len(paths), paths if not max_paths or len(paths) < max_paths else None
+
+
+def print_graph_stats(graph, source='s', sink='t', count_paths=False, max_paths=1000):
+    """
+    Print comprehensive graph statistics
+
+    Args:
+        graph: Adjacency list with capacities
+        source: Source vertex
+        sink: Sink vertex
+        count_paths: Whether to count s-t paths
+        max_paths: Maximum paths to enumerate
+    """
+    num_vertices = len(graph)
+    num_edges = count_edges(graph)
+    space_stats = calculate_space_complexity(graph)
+
+    print("\n" + "="*60)
+    print("GRAPH STATISTICS")
+    print("="*60)
+    print(f"Vertices (|V|):        {num_vertices}")
+    print(f"Edges (|E|):           {num_edges}")
+    print(f"Average degree:        {num_edges / num_vertices:.2f}")
+    print(f"Density:               {num_edges / (num_vertices * (num_vertices - 1)):.4f}")
+    print(f"\nSource vertex:         {source}")
+    print(f"Sink vertex:           {sink}")
+
+    # Space complexity
+    print(f"\n" + "-"*60)
+    print("SPACE COMPLEXITY")
+    print("-"*60)
+    print(f"Graph storage:         {space_stats['graph_space_O']}")
+    print(f"Algorithm overhead:    {space_stats['algorithm_space_O']}")
+    print(f"Total space:           {space_stats['total_space_O']}")
+    print(f"Estimated memory:      ~{space_stats['estimated_bytes']:,} bytes")
+    print(f"                       ~{space_stats['estimated_bytes'] / 1024:.2f} KB")
+
+    # Path counting
+    if count_paths:
+        print(f"\n" + "-"*60)
+        print("PATH ANALYSIS")
+        print("-"*60)
+        print(f"Counting s-t paths (max {max_paths})...")
+
+        num_paths, paths = count_st_paths(graph, source, sink, max_paths)
+
+        print(f"Number of s-t paths:   {num_paths}" +
+              (f" (stopped at limit)" if num_paths >= max_paths else ""))
+
+        if paths and num_paths <= 10:
+            print(f"\nAll paths from {source} to {sink}:")
+            for i, path in enumerate(paths, 1):
+                print(f"  Path {i}: {' -> '.join(path)}")
+        elif paths:
+            print(f"\nFirst 5 paths from {source} to {sink}:")
+            for i, path in enumerate(paths[:5], 1):
+                print(f"  Path {i}: {' -> '.join(path)}")
+            print(f"  ... and {num_paths - 5} more paths")
+
+    print("="*60 + "\n")
+
+
 def preflow_push_max_flow(graph, source='s', sink='t'):
     """
     Convenience function to compute max flow using preflow-push algorithm
@@ -233,34 +389,52 @@ def preflow_push_max_flow(graph, source='s', sink='t'):
 
 
 if __name__ == "__main__":
-    import sys
     import time
-
-    if len(sys.argv) < 2:
-        print("Usage: python PreflowPush.py <input_file> [source] [sink]")
-        sys.exit(1)
+    import argparse
 
     # Parse command line arguments
-    input_file = sys.argv[1]
-    source = sys.argv[2] if len(sys.argv) > 2 else 's'
-    sink = sys.argv[3] if len(sys.argv) > 3 else 't'
+    parser = argparse.ArgumentParser(description='Preflow-Push Maximum Flow Algorithm')
+    parser.add_argument('input_file', help='Input graph file')
+    parser.add_argument('--source', '-s', default='s', help='Source vertex (default: s)')
+    parser.add_argument('--sink', '-t', default='t', help='Sink vertex (default: t)')
+    parser.add_argument('--stats', action='store_true', help='Show detailed graph statistics')
+    parser.add_argument('--count-paths', action='store_true', help='Count s-t paths')
+    parser.add_argument('--max-paths', type=int, default=1000,
+                       help='Maximum paths to enumerate (default: 1000)')
+    parser.add_argument('--quiet', '-q', action='store_true', help='Minimal output (only max flow)')
+
+    args = parser.parse_args()
 
     # Load graph
-    print(f"Loading graph from {input_file}...")
-    graph = load_graph(input_file)
-    print(f"Graph loaded: {len(graph)} vertices")
+    if not args.quiet:
+        print(f"Loading graph from {args.input_file}...")
+    graph = load_graph(args.input_file)
+    if not args.quiet:
+        print(f"Graph loaded: {len(graph)} vertices, {count_edges(graph)} edges")
+
+    # Show graph statistics if requested
+    if args.stats or args.count_paths:
+        print_graph_stats(graph, args.source, args.sink,
+                         count_paths=args.count_paths,
+                         max_paths=args.max_paths)
 
     # Compute max flow
-    print(f"\nComputing maximum flow from '{source}' to '{sink}' using Preflow-Push...")
+    if not args.quiet:
+        print(f"Computing maximum flow from '{args.source}' to '{args.sink}' using Preflow-Push...")
     start_time = time.time()
 
-    max_flow_value = preflow_push_max_flow(graph, source, sink)
+    max_flow_value = preflow_push_max_flow(graph, args.source, args.sink)
 
     end_time = time.time()
     elapsed = end_time - start_time
 
     # Output results
-    print(f"\n{'='*50}")
-    print(f"Maximum Flow: {max_flow_value}")
-    print(f"Time: {elapsed:.6f} seconds")
-    print(f"{'='*50}\n")
+    if args.quiet:
+        print(max_flow_value)
+    else:
+        print(f"\n{'='*60}")
+        print(f"RESULTS")
+        print(f"{'='*60}")
+        print(f"Maximum Flow:          {max_flow_value}")
+        print(f"Computation Time:      {elapsed:.6f} seconds")
+        print(f"{'='*60}\n")
