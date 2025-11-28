@@ -48,3 +48,38 @@ Edges: 510
 \# of Augmentations: 16
 ==================================================
 ```
+
+**Time Complexity**
+Augmentation cost:
+O(m)
+
+Scaling phases:
+1 + log₂ C
+(C = max capacity)
+
+Augmentations per phase:
+≤ 2m
+
+Total Running Time
+O(m² log₂ C)
+
+
+This is polynomial in the size of the input (depends on log₂ C, not C itself) and therefore significantly faster than the O(mC) worst case of basic Ford–Fulkerson.
+
+**Space Complexity**
+The algorithm stores:
+
+the residual graph
+
+reverse edges
+
+DFS stack and path lists
+
+flow updates
+
+All of these take space proportional to the graph’s size:
+
+O(V + E)
+
+
+This is identical to standard Ford–Fulkerson and is optimal for any residual-graph–based max-flow method.
