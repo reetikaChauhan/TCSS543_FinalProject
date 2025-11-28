@@ -52,7 +52,7 @@ def fordFulkerson(graph):
     maxflow = 0
     residualgraph = {}
     stpaths =0
-    #building residual graph initializing with given graph  with all flow as 0
+    #building residual graph initializing with given graph with all flow as 0
     for u in graph:
         residualgraph[u] = {}
         for v in graph[u]:
