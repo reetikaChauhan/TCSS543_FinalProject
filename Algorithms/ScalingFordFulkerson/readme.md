@@ -50,7 +50,7 @@ Edges: 510
 ```
 ---
 
-**Time Complexity**
+## Time Complexity
 Augmentation cost:
 O(m)
 
@@ -67,7 +67,7 @@ O(m² log₂ C)
 
 This is polynomial in the size of the input (depends on log₂ C, not C itself) and therefore significantly faster than the O(mC) worst case of basic Ford–Fulkerson.
 
-**Space Complexity**
+## Space Complexity
 The algorithm stores:
 
 the residual graph
