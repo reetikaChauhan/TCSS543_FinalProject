@@ -64,3 +64,24 @@ df["SFF_over_FF"] = df["FF_Time"] / df["SFF_Time"]
 
 print("\n=====SpeedUp Factor=====")
 print(df.groupby("Graph_Type")[["PF_over_FF", "PF_over_SFF", "SFF_over_FF"]].mean())
+
+print("\n=====COUNT OF WINS (Lower time = winner)=====")
+
+# Overall comparisons
+ff_vs_sff = (df["FF_Time"] > df["SFF_Time"]).sum()
+sff_vs_ff = (df["SFF_Time"] > df["FF_Time"]).sum()
+
+ff_vs_pf = (df["FF_Time"] > df["PF_Time"]).sum()
+pf_vs_ff = (df["PF_Time"] > df["FF_Time"]).sum()
+
+sff_vs_pf = (df["SFF_Time"] > df["PF_Time"]).sum()
+pf_vs_sff = (df["PF_Time"] > df["SFF_Time"]).sum()
+
+print(f"Scaling FF beats FF:      {ff_vs_sff} out of {len(df)} graphs")
+print(f"FF beats Scaling FF:      {sff_vs_ff} out of {len(df)} graphs\n")
+
+print(f"Preflow beats FF:         {ff_vs_pf} out of {len(df)} graphs")
+print(f"FF beats Preflow:         {pf_vs_ff} out of {len(df)} graphs\n")
+
+print(f"Preflow beats Scaling FF: {sff_vs_pf} out of {len(df)} graphs")
+print(f"Scaling FF beats Preflow: {pf_vs_sff} out of {len(df)} graphs\n")
