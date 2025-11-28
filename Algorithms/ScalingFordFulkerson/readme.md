@@ -37,7 +37,8 @@ python Algorithms/ScalingFordFulkerson/ScalingFordFulkerson.py /FixedDegree/100v
 ```
 
 Computing max flow with Scaling Max-Flow...
-```==================================================
+```
+==================================================
 Maximum Flow: 517
 Time: 0.013279 seconds
 Peak Memory: 130.50 KB
