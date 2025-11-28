@@ -48,6 +48,7 @@ Edges: 510
 \# of Augmentations: 16
 ==================================================
 ```
+---
 
 **Time Complexity**
 Augmentation cost:
