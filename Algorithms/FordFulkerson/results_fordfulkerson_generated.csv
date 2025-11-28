@@ -1,0 +1,16 @@
+Graph_File,Graph_Type,Vertices,Edges,Space_Complexity,Augmenting_s-t_Paths,Actual_Max_Flow,Computation_Time_Seconds
+Random/random_v105_d80_18.txt,Random,105,8558,O(105+8558),536,3550,0.415128
+Random/random_v106_d48_46.txt,Random,106,5242,O(106+5242),512,3688,0.234924
+Random/random_v110_d76_27.txt,Random,110,8987,O(110+8987),2748,4339,3.718316
+Random/random_v120_d67_8.txt,Random,120,9288,O(120+9288),2372,3685,3.543284
+Random/random_v122_d31_29.txt,Random,122,4557,O(122+4557),951,1812,0.517584
+Random/random_v123_d42_40.txt,Random,123,6060,O(123+6060),1663,3095,1.485077
+Random/random_v125_d77_1.txt,Random,125,11595,O(125+11595),2958,7552,4.938524
+Random/random_v126_d51_50.txt,Random,126,7768,O(126+7768),1208,2344,1.365696
+Random/random_v136_d62_35.txt,Random,136,11065,O(136+11065),1300,3369,2.120351
+Random/random_v136_d67_49.txt,Random,136,11919,O(136+11919),4708,7061,9.928528
+Random/random_v137_d55_5.txt,Random,137,10023,O(137+10023),2510,3969,4.103807
+Random/random_v138_d73_44.txt,Random,138,13438,O(138+13438),2488,5634,4.651949
+Random/random_v142_d78_39.txt,Random,142,15254,O(142+15254),2780,7255,7.897176
+Random/random_v143_d45_32.txt,Random,143,8813,O(143+8813),872,3031,0.841230
+Random/random_v143_d60_23.txt,Random,143,11936,O(143+11936),2325,3112,4.403503
