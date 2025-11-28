@@ -48,16 +48,16 @@ Arguments:
 
 ```bash
 # Run with detailed statistics
-python Algorithms/FordFulkerson.py Mesh/smallMesh.txt --stats
+python Algorithms/FordFulkerson/FordFulkerson.py Mesh/smallMesh.txt --stats
 
 # Count all s-t paths
-python Algorithms/FordFulkerson.py Mesh/smallMesh.txt --count-paths
+python Algorithms/FordFulkerson/FordFulkerson.py Mesh/smallMesh.txt --count-paths
 
 # Both statistics and path counting
-python Algorithms/FordFulkerson.py Mesh/smallMesh.txt --stats --count-paths
+python Algorithms/FordFulkerson/FordFulkerson.py Mesh/smallMesh.txt --stats --count-paths
 
 # Quiet mode (for automation/scripting)
-python Algorithms/FordFulkerson.py Mesh/smallMesh.txt --quiet
+python Algorithms/FordFulkerson/FordFulkerson.py Mesh/smallMesh.txt --quiet
 ```
 
 ## How the Ford Fulkerson Algorithm Works

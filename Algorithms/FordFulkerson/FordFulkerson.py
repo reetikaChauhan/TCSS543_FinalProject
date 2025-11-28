@@ -70,18 +70,7 @@ def fordFulkerson(residualgraph):
     '''
     maxflow = 0
     stpaths =0
-    #building residual graph initializing with given graph  with all flow as 0
-    for u in graph:
-        residualgraph[u] = {}
-        for v in graph[u]:
-            residualgraph[u][v] = graph[u][v]
-    # adding reverse edges       
-    for u in list(residualgraph.keys()):
-        for v in list(residualgraph[u].keys()):
-            if v not in residualgraph:
-                residualgraph[v] = {}
-            if u not in residualgraph[v]:
-                residualgraph[v][u] = 0
+    
     while True:
         path,flow = augmentedPath(residualgraph,"s","t")
         if flow ==0:

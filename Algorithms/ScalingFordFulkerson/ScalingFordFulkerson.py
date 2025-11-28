@@ -13,6 +13,8 @@ Scaling Max-Flow
  Endwhile
 Return f
  '''
+
+
 import sys
 import time
 import tracemalloc
@@ -117,23 +119,24 @@ def scalingFordFulkerson(residualgraph):
 
 
 #Main
-input_file = sys.argv[1]
-graph, num_nodes, edge_count = load_graph(input_file)
+if __name__ == "__main__":
+    input_file = sys.argv[1]
+    graph, num_nodes, edge_count = load_graph(input_file)
 
-print(f"\nComputing max flow with Scaling Max-Flow...")
-tracemalloc.start()          # Start memory tracking
-start = time.time()          # Start Time
-max_flow_value, augpaths = scalingFordFulkerson(graph)
-end = time.time()            # End Time
-current, peak = tracemalloc.get_traced_memory()  # Get memory usage
-tracemalloc.stop()           # Stop memory tracking
+    print(f"\nComputing max flow with Scaling Max-Flow...")
+    tracemalloc.start()          # Start memory tracking
+    start = time.time()          # Start Time
+    max_flow_value, augpaths = scalingFordFulkerson(graph)
+    end = time.time()            # End Time
+    current, peak = tracemalloc.get_traced_memory()  # Get memory usage
+    tracemalloc.stop()           # Stop memory tracking
 
-print(f"\n{'='*50}")
-print(f"Maximum Flow: {max_flow_value}")
-print(f"Time: {end - start:.6f} seconds")
-print(f"Peak Memory: {peak / 1024:.2f} KB")
-print(f"Current Memory: {current / 1024:.2f} KB")
-print(f"Nodes: {num_nodes}")
-print(f"Edges: {edge_count}")
-print(f"# of Augmentations: {augpaths}")
-print(f"{'='*50}\n")
+    print(f"\n{'='*50}")
+    print(f"Maximum Flow: {max_flow_value}")
+    print(f"Time: {end - start:.6f} seconds")
+    print(f"Peak Memory: {peak / 1024:.2f} KB")
+    print(f"Current Memory: {current / 1024:.2f} KB")
+    print(f"Nodes: {num_nodes}")
+    print(f"Edges: {edge_count}")
+    print(f"# of Augmentations: {augpaths}")
+    print(f"{'='*50}\n")
