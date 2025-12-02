@@ -1,0 +1,290 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+<rect width="100%" height="100%" fill="white"/>
+<line x1="60" y1="540" x2="60" y2="60" stroke="black" stroke-width="2"/>
+<line x1="60" y1="540" x2="740" y2="540" stroke="black" stroke-width="2"/>
+<line x1="60" y1="540.0" x2="740" y2="540.0" stroke="#ddd" stroke-dasharray="4"/>
+<text x="50" y="544.0" text-anchor="end" font-family="Arial" font-size="12">0.00</text>
+<line x1="60" y1="444.0" x2="740" y2="444.0" stroke="#ddd" stroke-dasharray="4"/>
+<text x="50" y="448.0" text-anchor="end" font-family="Arial" font-size="12">0.34</text>
+<line x1="60" y1="348.0" x2="740" y2="348.0" stroke="#ddd" stroke-dasharray="4"/>
+<text x="50" y="352.0" text-anchor="end" font-family="Arial" font-size="12">0.68</text>
+<line x1="60" y1="252.0" x2="740" y2="252.0" stroke="#ddd" stroke-dasharray="4"/>
+<text x="50" y="256.0" text-anchor="end" font-family="Arial" font-size="12">1.02</text>
+<line x1="60" y1="155.99999999999994" x2="740" y2="155.99999999999994" stroke="#ddd" stroke-dasharray="4"/>
+<text x="50" y="159.99999999999994" text-anchor="end" font-family="Arial" font-size="12">1.36</text>
+<line x1="60" y1="60.0" x2="740" y2="60.0" stroke="#ddd" stroke-dasharray="4"/>
+<text x="50" y="64.0" text-anchor="end" font-family="Arial" font-size="12">1.70</text>
+<line x1="60.0" y1="540" x2="60.0" y2="60" stroke="#ddd" stroke-dasharray="4"/>
+<text x="60.0" y="560" text-anchor="middle" font-family="Arial" font-size="12">0</text>
+<line x1="196.00000000000003" y1="540" x2="196.00000000000003" y2="60" stroke="#ddd" stroke-dasharray="4"/>
+<text x="196.00000000000003" y="560" text-anchor="middle" font-family="Arial" font-size="12">84</text>
+<line x1="332.00000000000006" y1="540" x2="332.00000000000006" y2="60" stroke="#ddd" stroke-dasharray="4"/>
+<text x="332.00000000000006" y="560" text-anchor="middle" font-family="Arial" font-size="12">168</text>
+<line x1="468.0" y1="540" x2="468.0" y2="60" stroke="#ddd" stroke-dasharray="4"/>
+<text x="468.0" y="560" text-anchor="middle" font-family="Arial" font-size="12">253</text>
+<line x1="604.0000000000001" y1="540" x2="604.0000000000001" y2="60" stroke="#ddd" stroke-dasharray="4"/>
+<text x="604.0000000000001" y="560" text-anchor="middle" font-family="Arial" font-size="12">337</text>
+<line x1="740.0" y1="540" x2="740.0" y2="60" stroke="#ddd" stroke-dasharray="4"/>
+<text x="740.0" y="560" text-anchor="middle" font-family="Arial" font-size="12">422</text>
+<circle cx="227.5432361999526" cy="540.0" r="4" fill="#1f77b4" opacity="0.7"><title>Bipartite: 104, 0.0000s</title></circle>
+<circle cx="238.82018479033403" cy="539.3683420062532" r="4" fill="#1f77b4" opacity="0.7"><title>Bipartite: 111, 0.0022s</title></circle>
+<circle cx="182.43544183842693" cy="540.0" r="4" fill="#1f77b4" opacity="0.7"><title>Bipartite: 76, 0.0000s</title></circle>
+<circle cx="182.43544183842693" cy="540.0" r="4" fill="#1f77b4" opacity="0.7"><title>Bipartite: 76, 0.0000s</title></circle>
+<circle cx="203.37834636342097" cy="540.0" r="4" fill="#1f77b4" opacity="0.7"><title>Bipartite: 89, 0.0000s</title></circle>
+<circle cx="113.16275764036958" cy="540.0" r="4" fill="#1f77b4" opacity="0.7"><title>Bipartite: 33, 0.0000s</title></circle>
+<circle cx="219.48827292110875" cy="535.7533841939618" r="4" fill="#1f77b4" opacity="0.7"><title>Bipartite: 99, 0.0150s</title></circle>
+<circle cx="182.43544183842693" cy="540.0" r="4" fill="#1f77b4" opacity="0.7"><title>Bipartite: 76, 0.0000s</title></circle>
+<circle cx="184.0464344941957" cy="540.0" r="4" fill="#1f77b4" opacity="0.7"><title>Bipartite: 77, 0.0000s</title></circle>
+<circle cx="166.32551528073915" cy="540.0" r="4" fill="#1f77b4" opacity="0.7"><title>Bipartite: 66, 0.0000s</title></circle>
+<circle cx="187.26841980573323" cy="540.0" r="4" fill="#1f77b4" opacity="0.7"><title>Bipartite: 79, 0.0000s</title></circle>
+<circle cx="185.65742714996446" cy="539.4349511601962" r="4" fill="#1f77b4" opacity="0.7"><title>Bipartite: 78, 0.0020s</title></circle>
+<circle cx="179.21345652688936" cy="538.7730932534329" r="4" fill="#1f77b4" opacity="0.7"><title>Bipartite: 74, 0.0043s</title></circle>
+<circle cx="233.98720682302772" cy="537.5481622021099" r="4" fill="#1f77b4" opacity="0.7"><title>Bipartite: 108, 0.0087s</title></circle>
+<circle cx="203.37834636342097" cy="539.4349511601962" r="4" fill="#1f77b4" opacity="0.7"><title>Bipartite: 89, 0.0020s</title></circle>
+<circle cx="213.04430229803364" cy="540.0" r="4" fill="#1f77b4" opacity="0.7"><title>Bipartite: 95, 0.0000s</title></circle>
+<circle cx="230.76522151149018" cy="540.0" r="4" fill="#1f77b4" opacity="0.7"><title>Bipartite: 106, 0.0000s</title></circle>
+<circle cx="225.93224354418382" cy="535.4807382502802" r="4" fill="#1f77b4" opacity="0.7"><title>Bipartite: 103, 0.0160s</title></circle>
+<circle cx="262.98507462686564" cy="538.8137361270252" r="4" fill="#1f77b4" opacity="0.7"><title>Bipartite: 126, 0.0042s</title></circle>
+<circle cx="243.65316275764033" cy="539.4061624580683" r="4" fill="#1f77b4" opacity="0.7"><title>Bipartite: 114, 0.0021s</title></circle>
+<circle cx="134.10566216536364" cy="537.7141206026117" r="4" fill="#1f77b4" opacity="0.7"><title>Bipartite: 46, 0.0081s</title></circle>
+<circle cx="142.16062544420754" cy="530.9394616106979" r="4" fill="#1f77b4" opacity="0.7"><title>Bipartite: 51, 0.0321s</title></circle>
+<circle cx="254.9301113480218" cy="539.0880755237731" r="4" fill="#1f77b4" opacity="0.7"><title>Bipartite: 121, 0.0032s</title></circle>
+<circle cx="259.7630893153281" cy="538.1640146339041" r="4" fill="#1f77b4" opacity="0.7"><title>Bipartite: 124, 0.0065s</title></circle>
+<circle cx="232.37621416725892" cy="538.3000553635671" r="4" fill="#1f77b4" opacity="0.7"><title>Bipartite: 107, 0.0060s</title></circle>
+<circle cx="233.98720682302772" cy="540.0" r="4" fill="#1f77b4" opacity="0.7"><title>Bipartite: 108, 0.0000s</title></circle>
+<circle cx="158.27055200189528" cy="517.8044751437693" r="4" fill="#1f77b4" opacity="0.7"><title>Bipartite: 61, 0.0786s</title></circle>
+<circle cx="206.60033167495854" cy="540.0" r="4" fill="#1f77b4" opacity="0.7"><title>Bipartite: 91, 0.0000s</title></circle>
+<circle cx="267.818052594172" cy="535.5385978967137" r="4" fill="#1f77b4" opacity="0.7"><title>Bipartite: 129, 0.0158s</title></circle>
+<circle cx="232.37621416725892" cy="538.8699023203923" r="4" fill="#1f77b4" opacity="0.7"><title>Bipartite: 107, 0.0040s</title></circle>
+<circle cx="271.04003790570954" cy="539.4154764499332" r="4" fill="#1f77b4" opacity="0.7"><title>Bipartite: 131, 0.0021s</title></circle>
+<circle cx="166.32551528073915" cy="513.9244919265948" r="4" fill="#1f77b4" opacity="0.7"><title>Bipartite: 66, 0.0924s</title></circle>
+<circle cx="169.54750059227672" cy="517.964506458539" r="4" fill="#1f77b4" opacity="0.7"><title>Bipartite: 68, 0.0781s</title></circle>
+<circle cx="182.43544183842693" cy="540.0" r="4" fill="#1f77b4" opacity="0.7"><title>Bipartite: 76, 0.0000s</title></circle>
+<circle cx="177.6024638711206" cy="540.0" r="4" fill="#1f77b4" opacity="0.7"><title>Bipartite: 73, 0.0000s</title></circle>
+<circle cx="190.49040511727077" cy="534.9707266351326" r="4" fill="#1f77b4" opacity="0.7"><title>Bipartite: 81, 0.0178s</title></circle>
+<circle cx="238.82018479033403" cy="540.0" r="4" fill="#1f77b4" opacity="0.7"><title>Bipartite: 111, 0.0000s</title></circle>
+<circle cx="208.2113243307273" cy="493.7328865322059" r="4" fill="#1f77b4" opacity="0.7"><title>Bipartite: 92, 0.1639s</title></circle>
+<circle cx="214.6552949538024" cy="538.0734148948546" r="4" fill="#1f77b4" opacity="0.7"><title>Bipartite: 96, 0.0068s</title></circle>
+<circle cx="198.54536839611467" cy="522.12024028335" r="4" fill="#1f77b4" opacity="0.7"><title>Bipartite: 86, 0.0633s</title></circle>
+<circle cx="237.20919213456528" cy="538.0293851151297" r="4" fill="#1f77b4" opacity="0.7"><title>Bipartite: 110, 0.0070s</title></circle>
+<circle cx="240.43117744610282" cy="536.2887976051046" r="4" fill="#1f77b4" opacity="0.7"><title>Bipartite: 112, 0.0131s</title></circle>
+<circle cx="174.38047855958303" cy="514.0766204603882" r="4" fill="#1f77b4" opacity="0.7"><title>Bipartite: 71, 0.0918s</title></circle>
+<circle cx="214.6552949538024" cy="496.99419489580896" r="4" fill="#1f77b4" opacity="0.7"><title>Bipartite: 96, 0.1524s</title></circle>
+<circle cx="274.26202321724713" cy="536.4677391457817" r="4" fill="#1f77b4" opacity="0.7"><title>Bipartite: 133, 0.0125s</title></circle>
+<circle cx="300.0379057095475" cy="536.415242100725" r="4" fill="#1f77b4" opacity="0.7"><title>Bipartite: 149, 0.0127s</title></circle>
+<circle cx="219.48827292110875" cy="454.94716646934705" r="4" fill="#1f77b4" opacity="0.7"><title>Bipartite: 99, 0.3013s</title></circle>
+<circle cx="259.7630893153281" cy="535.4612635400172" r="4" fill="#1f77b4" opacity="0.7"><title>Bipartite: 124, 0.0161s</title></circle>
+<circle cx="309.70386164416016" cy="535.5388801388914" r="4" fill="#1f77b4" opacity="0.7"><title>Bipartite: 155, 0.0158s</title></circle>
+<circle cx="208.2113243307273" cy="499.0937944558993" r="4" fill="#1f77b4" opacity="0.7"><title>Bipartite: 92, 0.1449s</title></circle>
+<circle cx="216.26628760957118" cy="481.66308204400843" r="4" fill="#1f77b4" opacity="0.7"><title>Bipartite: 97, 0.2067s</title></circle>
+<circle cx="279.09500118455344" cy="538.2836853172591" r="4" fill="#1f77b4" opacity="0.7"><title>Bipartite: 136, 0.0061s</title></circle>
+<circle cx="300.0379057095475" cy="536.5312436357697" r="4" fill="#1f77b4" opacity="0.7"><title>Bipartite: 149, 0.0123s</title></circle>
+<circle cx="179.21345652688936" cy="517.7830247382623" r="4" fill="#1f77b4" opacity="0.7"><title>Bipartite: 74, 0.0787s</title></circle>
+<circle cx="208.2113243307273" cy="507.16027589525675" r="4" fill="#1f77b4" opacity="0.7"><title>Bipartite: 92, 0.1164s</title></circle>
+<circle cx="216.26628760957118" cy="444.30240273647905" r="4" fill="#1f77b4" opacity="0.7"><title>Bipartite: 97, 0.3391s</title></circle>
+<circle cx="253.319118692253" cy="535.5496053416449" r="4" fill="#1f77b4" opacity="0.7"><title>Bipartite: 120, 0.0158s</title></circle>
+<circle cx="283.92797915185974" cy="540.0" r="4" fill="#1f77b4" opacity="0.7"><title>Bipartite: 139, 0.0000s</title></circle>
+<circle cx="190.49040511727077" cy="513.074942971645" r="4" fill="#1f77b4" opacity="0.7"><title>Bipartite: 81, 0.0954s</title></circle>
+<circle cx="235.5981994787965" cy="493.4280649802638" r="4" fill="#1f77b4" opacity="0.7"><title>Bipartite: 109, 0.1650s</title></circle>
+<circle cx="309.70386164416016" cy="535.7516907408955" r="4" fill="#1f77b4" opacity="0.7"><title>Bipartite: 155, 0.0151s</title></circle>
+<circle cx="277.4840085287846" cy="535.368405863546" r="4" fill="#1f77b4" opacity="0.7"><title>Bipartite: 135, 0.0164s</title></circle>
+<circle cx="221.0992655768775" cy="475.91465561029975" r="4" fill="#1f77b4" opacity="0.7"><title>Bipartite: 100, 0.2271s</title></circle>
+<circle cx="187.26841980573323" cy="520.8061207038661" r="4" fill="#1f77b4" opacity="0.7"><title>Bipartite: 79, 0.0680s</title></circle>
+<circle cx="251.70812603648423" cy="335.80540495534353" r="4" fill="#1f77b4" opacity="0.7"><title>Bipartite: 119, 0.7235s</title></circle>
+<circle cx="317.758824923004" cy="536.41834676468" r="4" fill="#1f77b4" opacity="0.7"><title>Bipartite: 160, 0.0127s</title></circle>
+<circle cx="193.71239042880833" cy="531.4246359142057" r="4" fill="#1f77b4" opacity="0.7"><title>Bipartite: 83, 0.0304s</title></circle>
+<circle cx="211.43330964226487" cy="503.58878337833477" r="4" fill="#1f77b4" opacity="0.7"><title>Bipartite: 94, 0.1290s</title></circle>
+<circle cx="246.8751480691779" cy="432.34182597106087" r="4" fill="#1f77b4" opacity="0.7"><title>Bipartite: 116, 0.3814s</title></circle>
+<circle cx="311.3148542999289" cy="540.0" r="4" fill="#1f77b4" opacity="0.7"><title>Bipartite: 156, 0.0000s</title></circle>
+<circle cx="203.37834636342097" cy="490.63076275683926" r="4" fill="#1f77b4" opacity="0.7"><title>Bipartite: 89, 0.1749s</title></circle>
+<circle cx="293.59393508647236" cy="540.0" r="4" fill="#1f77b4" opacity="0.7"><title>Bipartite: 145, 0.0000s</title></circle>
+<circle cx="300.0379057095475" cy="534.6430434667948" r="4" fill="#1f77b4" opacity="0.7"><title>Bipartite: 149, 0.0190s</title></circle>
+<circle cx="280.7059938403222" cy="436.9680575061381" r="4" fill="#1f77b4" opacity="0.7"><title>Bipartite: 137, 0.3650s</title></circle>
+<circle cx="275.8730158730159" cy="250.67777724759372" r="4" fill="#1f77b4" opacity="0.7"><title>Bipartite: 134, 1.0251s</title></circle>
+<circle cx="217.87728026533998" cy="520.2834081907209" r="4" fill="#1f77b4" opacity="0.7"><title>Bipartite: 98, 0.0699s</title></circle>
+<circle cx="308.0928689883914" cy="258.5421732877007" r="4" fill="#1f77b4" opacity="0.7"><title>Bipartite: 154, 0.9972s</title></circle>
+<circle cx="348.3676853826108" cy="536.724297285333" r="4" fill="#1f77b4" opacity="0.7"><title>Bipartite: 179, 0.0116s</title></circle>
+<circle cx="269.42904524994077" cy="435.46088427709094" r="4" fill="#1f77b4" opacity="0.7"><title>Bipartite: 130, 0.3704s</title></circle>
+<circle cx="217.87728026533998" cy="526.6872009611052" r="4" fill="#1f77b4" opacity="0.7"><title>Bipartite: 98, 0.0472s</title></circle>
+<circle cx="277.4840085287846" cy="354.0416365424593" r="4" fill="#1f77b4" opacity="0.7"><title>Bipartite: 135, 0.6589s</title></circle>
+<circle cx="316.14783226723523" cy="364.9994068504234" r="4" fill="#1f77b4" opacity="0.7"><title>Bipartite: 159, 0.6200s</title></circle>
+<circle cx="333.86875148069174" cy="532.4085321457524" r="4" fill="#1f77b4" opacity="0.7"><title>Bipartite: 170, 0.0269s</title></circle>
+<circle cx="219.48827292110875" cy="512.0478636869067" r="4" fill="#1f77b4" opacity="0.7"><title>Bipartite: 99, 0.0990s</title></circle>
+<circle cx="279.09500118455344" cy="429.816040722607" r="4" fill="#1f77b4" opacity="0.7"><title>Bipartite: 136, 0.3904s</title></circle>
+<circle cx="349.97867803837954" cy="531.0893322070694" r="4" fill="#1f77b4" opacity="0.7"><title>Bipartite: 180, 0.0316s</title></circle>
+<circle cx="353.2006633499171" cy="534.6410677715508" r="4" fill="#1f77b4" opacity="0.7"><title>Bipartite: 182, 0.0190s</title></circle>
+<circle cx="327.42478085761667" cy="261.39648843102543" r="4" fill="#1f77b4" opacity="0.7"><title>Bipartite: 166, 0.9871s</title></circle>
+<circle cx="341.92371475953564" cy="531.0918723866689" r="4" fill="#1f77b4" opacity="0.7"><title>Bipartite: 175, 0.0316s</title></circle>
+<circle cx="262.98507462686564" cy="327.41462725378096" r="4" fill="#1f77b4" opacity="0.7"><title>Bipartite: 126, 0.7532s</title></circle>
+<circle cx="246.8751480691779" cy="442.4486361131865" r="4" fill="#1f77b4" opacity="0.7"><title>Bipartite: 116, 0.3456s</title></circle>
+<circle cx="253.319118692253" cy="489.89185273555734" r="4" fill="#1f77b4" opacity="0.7"><title>Bipartite: 120, 0.1775s</title></circle>
+<circle cx="304.87088367685385" cy="82.85714285714289" r="4" fill="#1f77b4" opacity="0.7"><title>Bipartite: 152, 1.6197s</title></circle>
+<circle cx="316.14783226723523" cy="412.20864470746085" r="4" fill="#1f77b4" opacity="0.7"><title>Bipartite: 159, 0.4528s</title></circle>
+<circle cx="271.04003790570954" cy="472.7137470727297" r="4" fill="#1f77b4" opacity="0.7"><title>Bipartite: 131, 0.2384s</title></circle>
+<circle cx="274.26202321724713" cy="472.57206149951213" r="4" fill="#1f77b4" opacity="0.7"><title>Bipartite: 133, 0.2389s</title></circle>
+<circle cx="277.4840085287846" cy="374.42008625850156" r="4" fill="#1f77b4" opacity="0.7"><title>Bipartite: 135, 0.5867s</title></circle>
+<circle cx="295.2049277422412" cy="203.31753982547383" r="4" fill="#1f77b4" opacity="0.7"><title>Bipartite: 146, 1.1929s</title></circle>
+<circle cx="333.86875148069174" cy="185.08582411320174" r="4" fill="#1f77b4" opacity="0.7"><title>Bipartite: 170, 1.2575s</title></circle>
+<circle cx="369.3105899076048" cy="301.4590721059086" r="4" fill="#1f77b4" opacity="0.7"><title>Bipartite: 192, 0.8452s</title></circle>
+<circle cx="230.76522151149018" cy="539.4349511601962" r="4" fill="#ff7f0e" opacity="0.7"><title>FixedDegree: 106, 0.0020s</title></circle>
+<circle cx="233.98720682302772" cy="502.34889349159243" r="4" fill="#ff7f0e" opacity="0.7"><title>FixedDegree: 108, 0.1334s</title></circle>
+<circle cx="238.82018479033403" cy="525.4083616538369" r="4" fill="#ff7f0e" opacity="0.7"><title>FixedDegree: 111, 0.0517s</title></circle>
+<circle cx="251.70812603648423" cy="536.7011534267596" r="4" fill="#ff7f0e" opacity="0.7"><title>FixedDegree: 119, 0.0117s</title></circle>
+<circle cx="253.319118692253" cy="511.94286959679323" r="4" fill="#ff7f0e" opacity="0.7"><title>FixedDegree: 120, 0.0994s</title></circle>
+<circle cx="253.319118692253" cy="497.5880324377407" r="4" fill="#ff7f0e" opacity="0.7"><title>FixedDegree: 120, 0.1503s</title></circle>
+<circle cx="264.5960672826344" cy="505.8391002613298" r="4" fill="#ff7f0e" opacity="0.7"><title>FixedDegree: 127, 0.1210s</title></circle>
+<circle cx="266.2070599384032" cy="539.0804549849746" r="4" fill="#ff7f0e" opacity="0.7"><title>FixedDegree: 128, 0.0033s</title></circle>
+<circle cx="282.316986496091" cy="539.2018191213959" r="4" fill="#ff7f0e" opacity="0.7"><title>FixedDegree: 138, 0.0028s</title></circle>
+<circle cx="290.3719497749348" cy="538.9269152402926" r="4" fill="#ff7f0e" opacity="0.7"><title>FixedDegree: 143, 0.0038s</title></circle>
+<circle cx="308.0928689883914" cy="510.2756650529764" r="4" fill="#ff7f0e" opacity="0.7"><title>FixedDegree: 154, 0.1053s</title></circle>
+<circle cx="309.70386164416016" cy="535.1666027064732" r="4" fill="#ff7f0e" opacity="0.7"><title>FixedDegree: 155, 0.0171s</title></circle>
+<circle cx="317.758824923004" cy="472.82438600639756" r="4" fill="#ff7f0e" opacity="0.7"><title>FixedDegree: 160, 0.2380s</title></circle>
+<circle cx="332.257758824923" cy="540.0" r="4" fill="#ff7f0e" opacity="0.7"><title>FixedDegree: 169, 0.0000s</title></circle>
+<circle cx="335.47974413646057" cy="540.0" r="4" fill="#ff7f0e" opacity="0.7"><title>FixedDegree: 171, 0.0000s</title></circle>
+<circle cx="335.47974413646057" cy="539.0209018854748" r="4" fill="#ff7f0e" opacity="0.7"><title>FixedDegree: 171, 0.0035s</title></circle>
+<circle cx="340.3127221037669" cy="497.22506899718735" r="4" fill="#ff7f0e" opacity="0.7"><title>FixedDegree: 174, 0.1516s</title></circle>
+<circle cx="343.5347074153044" cy="438.78654385721507" r="4" fill="#ff7f0e" opacity="0.7"><title>FixedDegree: 176, 0.3586s</title></circle>
+<circle cx="354.81165600568585" cy="446.57953262635783" r="4" fill="#ff7f0e" opacity="0.7"><title>FixedDegree: 183, 0.3310s</title></circle>
+<circle cx="356.4226486614546" cy="451.70109918334106" r="4" fill="#ff7f0e" opacity="0.7"><title>FixedDegree: 184, 0.3128s</title></circle>
+<circle cx="361.2556266287609" cy="540.0" r="4" fill="#ff7f0e" opacity="0.7"><title>FixedDegree: 187, 0.0000s</title></circle>
+<circle cx="362.86661928452975" cy="540.0" r="4" fill="#ff7f0e" opacity="0.7"><title>FixedDegree: 188, 0.0000s</title></circle>
+<circle cx="366.0886045960673" cy="539.3745513341631" r="4" fill="#ff7f0e" opacity="0.7"><title>FixedDegree: 190, 0.0022s</title></circle>
+<circle cx="369.3105899076048" cy="417.90146943215785" r="4" fill="#ff7f0e" opacity="0.7"><title>FixedDegree: 192, 0.4326s</title></circle>
+<circle cx="372.53257521914236" cy="472.1334571553287" r="4" fill="#ff7f0e" opacity="0.7"><title>FixedDegree: 194, 0.2405s</title></circle>
+<circle cx="377.36555318644866" cy="538.8382911964873" r="4" fill="#ff7f0e" opacity="0.7"><title>FixedDegree: 197, 0.0041s</title></circle>
+<circle cx="377.36555318644866" cy="464.23603878042803" r="4" fill="#ff7f0e" opacity="0.7"><title>FixedDegree: 197, 0.2684s</title></circle>
+<circle cx="382.198531153755" cy="420.16759187710545" r="4" fill="#ff7f0e" opacity="0.7"><title>FixedDegree: 200, 0.4246s</title></circle>
+<circle cx="385.42051646529256" cy="538.9667113873518" r="4" fill="#ff7f0e" opacity="0.7"><title>FixedDegree: 202, 0.0037s</title></circle>
+<circle cx="97.05283108268182" cy="539.24471993241" r="4" fill="#ff7f0e" opacity="0.7"><title>FixedDegree: 23, 0.0027s</title></circle>
+<circle cx="97.05283108268182" cy="539.3714466702082" r="4" fill="#ff7f0e" opacity="0.7"><title>FixedDegree: 23, 0.0022s</title></circle>
+<circle cx="97.05283108268182" cy="540.0" r="4" fill="#ff7f0e" opacity="0.7"><title>FixedDegree: 23, 0.0000s</title></circle>
+<circle cx="98.6638237384506" cy="540.0" r="4" fill="#ff7f0e" opacity="0.7"><title>FixedDegree: 24, 0.0000s</title></circle>
+<circle cx="111.5517649846008" cy="538.0604317546794" r="4" fill="#ff7f0e" opacity="0.7"><title>FixedDegree: 32, 0.0069s</title></circle>
+<circle cx="155.04856669035772" cy="530.9228093222122" r="4" fill="#ff7f0e" opacity="0.7"><title>FixedDegree: 59, 0.0322s</title></circle>
+<circle cx="156.6595593461265" cy="539.7092905569441" r="4" fill="#ff7f0e" opacity="0.7"><title>FixedDegree: 60, 0.0010s</title></circle>
+<circle cx="156.6595593461265" cy="539.7098550412995" r="4" fill="#ff7f0e" opacity="0.7"><title>FixedDegree: 60, 0.0010s</title></circle>
+<circle cx="159.88154465766405" cy="527.8503209755066" r="4" fill="#ff7f0e" opacity="0.7"><title>FixedDegree: 62, 0.0430s</title></circle>
+<circle cx="159.88154465766405" cy="539.8851274336663" r="4" fill="#ff7f0e" opacity="0.7"><title>FixedDegree: 62, 0.0004s</title></circle>
+<circle cx="164.71452262497039" cy="540.0" r="4" fill="#ff7f0e" opacity="0.7"><title>FixedDegree: 65, 0.0000s</title></circle>
+<circle cx="185.65742714996446" cy="526.2000509623532" r="4" fill="#ff7f0e" opacity="0.7"><title>FixedDegree: 78, 0.0489s</title></circle>
+<circle cx="188.879412461502" cy="540.0" r="4" fill="#ff7f0e" opacity="0.7"><title>FixedDegree: 80, 0.0000s</title></circle>
+<circle cx="188.879412461502" cy="540.0" r="4" fill="#ff7f0e" opacity="0.7"><title>FixedDegree: 80, 0.0000s</title></circle>
+<circle cx="192.10139777303954" cy="529.7661808778984" r="4" fill="#ff7f0e" opacity="0.7"><title>FixedDegree: 82, 0.0363s</title></circle>
+<circle cx="192.10139777303954" cy="540.0" r="4" fill="#ff7f0e" opacity="0.7"><title>FixedDegree: 82, 0.0000s</title></circle>
+<circle cx="196.93437574034587" cy="540.0" r="4" fill="#ff7f0e" opacity="0.7"><title>FixedDegree: 85, 0.0000s</title></circle>
+<circle cx="206.60033167495854" cy="539.8786358635786" r="4" fill="#ff7f0e" opacity="0.7"><title>FixedDegree: 91, 0.0004s</title></circle>
+<circle cx="209.82231698649608" cy="517.8936636719302" r="4" fill="#ff7f0e" opacity="0.7"><title>FixedDegree: 93, 0.0783s</title></circle>
+<circle cx="211.43330964226487" cy="529.7455771989246" r="4" fill="#ff7f0e" opacity="0.7"><title>FixedDegree: 94, 0.0363s</title></circle>
+<circle cx="214.6552949538024" cy="519.6827968365238" r="4" fill="#ff7f0e" opacity="0.7"><title>FixedDegree: 96, 0.0720s</title></circle>
+<circle cx="304.87088367685385" cy="540.0" r="4" fill="#2ca02c" opacity="0.7"><title>Mesh: 152, 0.0000s</title></circle>
+<circle cx="175.9914712153518" cy="538.29102361388" r="4" fill="#2ca02c" opacity="0.7"><title>Mesh: 72, 0.0061s</title></circle>
+<circle cx="346.75669272684195" cy="540.0" r="4" fill="#2ca02c" opacity="0.7"><title>Mesh: 178, 0.0000s</title></circle>
+<circle cx="417.64036958066805" cy="515.6828606938166" r="4" fill="#2ca02c" opacity="0.7"><title>Mesh: 222, 0.0862s</title></circle>
+<circle cx="169.54750059227672" cy="535.5747248954624" r="4" fill="#2ca02c" opacity="0.7"><title>Mesh: 68, 0.0157s</title></circle>
+<circle cx="314.53683961146646" cy="540.0" r="4" fill="#2ca02c" opacity="0.7"><title>Mesh: 158, 0.0000s</title></circle>
+<circle cx="411.196398957593" cy="535.5772650750619" r="4" fill="#2ca02c" opacity="0.7"><title>Mesh: 218, 0.0157s</title></circle>
+<circle cx="411.196398957593" cy="531.2931110593863" r="4" fill="#2ca02c" opacity="0.7"><title>Mesh: 218, 0.0308s</title></circle>
+<circle cx="198.54536839611467" cy="540.0" r="4" fill="#2ca02c" opacity="0.7"><title>Mesh: 86, 0.0000s</title></circle>
+<circle cx="440.19426676143087" cy="536.5845874073595" r="4" fill="#2ca02c" opacity="0.7"><title>Mesh: 236, 0.0121s</title></circle>
+<circle cx="230.76522151149018" cy="540.0" r="4" fill="#2ca02c" opacity="0.7"><title>Mesh: 106, 0.0000s</title></circle>
+<circle cx="230.76522151149018" cy="540.0" r="4" fill="#2ca02c" opacity="0.7"><title>Mesh: 106, 0.0000s</title></circle>
+<circle cx="311.3148542999289" cy="522.0561713090066" r="4" fill="#2ca02c" opacity="0.7"><title>Mesh: 156, 0.0636s</title></circle>
+<circle cx="153.43757403458895" cy="540.0" r="4" fill="#2ca02c" opacity="0.7"><title>Mesh: 58, 0.0000s</title></circle>
+<circle cx="208.2113243307273" cy="540.0" r="4" fill="#2ca02c" opacity="0.7"><title>Mesh: 92, 0.0000s</title></circle>
+<circle cx="449.8602226960436" cy="478.6560738825349" r="4" fill="#2ca02c" opacity="0.7"><title>Mesh: 242, 0.2173s</title></circle>
+<circle cx="501.41198768064436" cy="455.60366177473355" r="4" fill="#2ca02c" opacity="0.7"><title>Mesh: 274, 0.2990s</title></circle>
+<circle cx="166.32551528073915" cy="536.3068611044789" r="4" fill="#2ca02c" opacity="0.7"><title>Mesh: 66, 0.0131s</title></circle>
+<circle cx="172.76948590381426" cy="540.0" r="4" fill="#2ca02c" opacity="0.7"><title>Mesh: 70, 0.0000s</title></circle>
+<circle cx="172.76948590381426" cy="540.0" r="4" fill="#2ca02c" opacity="0.7"><title>Mesh: 70, 0.0000s</title></circle>
+<circle cx="200.15636105188344" cy="540.0" r="4" fill="#2ca02c" opacity="0.7"><title>Mesh: 87, 0.0000s</title></circle>
+<circle cx="440.19426676143087" cy="540.0" r="4" fill="#2ca02c" opacity="0.7"><title>Mesh: 236, 0.0000s</title></circle>
+<circle cx="527.1878701729447" cy="486.51595404779823" r="4" fill="#2ca02c" opacity="0.7"><title>Mesh: 290, 0.1895s</title></circle>
+<circle cx="643.1793413882965" cy="499.3941001329978" r="4" fill="#2ca02c" opacity="0.7"><title>Mesh: 362, 0.1439s</title></circle>
+<circle cx="491.74603174603175" cy="526.385484073118" r="4" fill="#2ca02c" opacity="0.7"><title>Mesh: 268, 0.0482s</title></circle>
+<circle cx="308.0928689883914" cy="535.5724669580405" r="4" fill="#2ca02c" opacity="0.7"><title>Mesh: 154, 0.0157s</title></circle>
+<circle cx="385.42051646529256" cy="513.1582044140736" r="4" fill="#2ca02c" opacity="0.7"><title>Mesh: 202, 0.0951s</title></circle>
+<circle cx="482.0800758114191" cy="472.90087363656085" r="4" fill="#2ca02c" opacity="0.7"><title>Mesh: 262, 0.2377s</title></circle>
+<circle cx="707.6190476190476" cy="429.4104587132174" r="4" fill="#2ca02c" opacity="0.7"><title>Mesh: 402, 0.3918s</title></circle>
+<circle cx="159.88154465766405" cy="539.1679500600691" r="4" fill="#2ca02c" opacity="0.7"><title>Mesh: 62, 0.0029s</title></circle>
+<circle cx="192.10139777303954" cy="540.0" r="4" fill="#2ca02c" opacity="0.7"><title>Mesh: 82, 0.0000s</title></circle>
+<circle cx="224.32125088841505" cy="540.0" r="4" fill="#2ca02c" opacity="0.7"><title>Mesh: 102, 0.0000s</title></circle>
+<circle cx="224.32125088841505" cy="540.0" r="4" fill="#2ca02c" opacity="0.7"><title>Mesh: 102, 0.0000s</title></circle>
+<circle cx="121.21772091921346" cy="540.0" r="4" fill="#2ca02c" opacity="0.7"><title>Mesh: 38, 0.0000s</title></circle>
+<circle cx="121.21772091921346" cy="540.0" r="4" fill="#2ca02c" opacity="0.7"><title>Mesh: 38, 0.0000s</title></circle>
+<circle cx="126.05069888651977" cy="540.0" r="4" fill="#2ca02c" opacity="0.7"><title>Mesh: 41, 0.0000s</title></circle>
+<circle cx="134.10566216536364" cy="540.0" r="4" fill="#2ca02c" opacity="0.7"><title>Mesh: 46, 0.0000s</title></circle>
+<circle cx="146.99360341151385" cy="540.0" r="4" fill="#2ca02c" opacity="0.7"><title>Mesh: 54, 0.0000s</title></circle>
+<circle cx="88.99786780383795" cy="540.0" r="4" fill="#2ca02c" opacity="0.7"><title>Mesh: 18, 0.0000s</title></circle>
+<circle cx="169.54750059227672" cy="540.0" r="4" fill="#2ca02c" opacity="0.7"><title>Mesh: 68, 0.0000s</title></circle>
+<circle cx="179.21345652688936" cy="540.0" r="4" fill="#2ca02c" opacity="0.7"><title>Mesh: 74, 0.0000s</title></circle>
+<circle cx="188.879412461502" cy="540.0" r="4" fill="#2ca02c" opacity="0.7"><title>Mesh: 80, 0.0000s</title></circle>
+<circle cx="208.2113243307273" cy="535.5315418422706" r="4" fill="#2ca02c" opacity="0.7"><title>Mesh: 92, 0.0158s</title></circle>
+<circle cx="111.5517649846008" cy="540.0" r="4" fill="#2ca02c" opacity="0.7"><title>Mesh: 32, 0.0000s</title></circle>
+<circle cx="121.21772091921346" cy="534.9614126432676" r="4" fill="#2ca02c" opacity="0.7"><title>Mesh: 38, 0.0179s</title></circle>
+<circle cx="192.10139777303954" cy="540.0" r="4" fill="#2ca02c" opacity="0.7"><title>Mesh: 82, 0.0000s</title></circle>
+<circle cx="256.54110400379057" cy="540.0" r="4" fill="#2ca02c" opacity="0.7"><title>Mesh: 122, 0.0000s</title></circle>
+<circle cx="256.54110400379057" cy="536.6195854373973" r="4" fill="#2ca02c" opacity="0.7"><title>Mesh: 122, 0.0120s</title></circle>
+<circle cx="166.32551528073915" cy="540.0" r="4" fill="#2ca02c" opacity="0.7"><title>Mesh: 66, 0.0000s</title></circle>
+<circle cx="135.71665482113244" cy="540.0" r="4" fill="#2ca02c" opacity="0.7"><title>Mesh: 47, 0.0000s</title></circle>
+<circle cx="229.15422885572139" cy="535.1702718547836" r="4" fill="#d62728" opacity="0.7"><title>Random: 105, 0.0171s</title></circle>
+<circle cx="230.76522151149018" cy="540.0" r="4" fill="#d62728" opacity="0.7"><title>Random: 106, 0.0000s</title></circle>
+<circle cx="237.20919213456528" cy="387.4023797072814" r="4" fill="#d62728" opacity="0.7"><title>Random: 110, 0.5407s</title></circle>
+<circle cx="253.319118692253" cy="371.30356813207095" r="4" fill="#d62728" opacity="0.7"><title>Random: 120, 0.5977s</title></circle>
+<circle cx="256.54110400379057" cy="538.5472995112535" r="4" fill="#d62728" opacity="0.7"><title>Random: 122, 0.0051s</title></circle>
+<circle cx="258.15209665955933" cy="424.7890252951614" r="4" fill="#d62728" opacity="0.7"><title>Random: 123, 0.4082s</title></circle>
+<circle cx="261.37408197109687" cy="535.2862733898282" r="4" fill="#d62728" opacity="0.7"><title>Random: 125, 0.0167s</title></circle>
+<circle cx="262.98507462686564" cy="538.0144262797103" r="4" fill="#d62728" opacity="0.7"><title>Random: 126, 0.0070s</title></circle>
+<circle cx="279.09500118455344" cy="306.6475300590124" r="4" fill="#d62728" opacity="0.7"><title>Random: 136, 0.8268s</title></circle>
+<circle cx="279.09500118455344" cy="290.4699729162171" r="4" fill="#d62728" opacity="0.7"><title>Random: 136, 0.8841s</title></circle>
+<circle cx="280.7059938403222" cy="329.90315653477523" r="4" fill="#d62728" opacity="0.7"><title>Random: 137, 0.7444s</title></circle>
+<circle cx="282.316986496091" cy="534.6472770994607" r="4" fill="#d62728" opacity="0.7"><title>Random: 138, 0.0190s</title></circle>
+<circle cx="288.76095711916605" cy="218.61196119417025" r="4" fill="#d62728" opacity="0.7"><title>Random: 142, 1.1387s</title></circle>
+<circle cx="290.3719497749348" cy="536.6845011382738" r="4" fill="#d62728" opacity="0.7"><title>Random: 143, 0.0117s</title></circle>
+<circle cx="290.3719497749348" cy="286.01703807826243" r="4" fill="#d62728" opacity="0.7"><title>Random: 143, 0.8999s</title></circle>
+<circle cx="296.8159203980099" cy="260.5345208202558" r="4" fill="#d62728" opacity="0.7"><title>Random: 147, 0.9902s</title></circle>
+<circle cx="87.38687514806918" cy="539.599780591987" r="4" fill="#d62728" opacity="0.7"><title>Random: 17, 0.0014s</title></circle>
+<circle cx="87.38687514806918" cy="539.5865152096341" r="4" fill="#d62728" opacity="0.7"><title>Random: 17, 0.0015s</title></circle>
+<circle cx="87.38687514806918" cy="540.0" r="4" fill="#d62728" opacity="0.7"><title>Random: 17, 0.0000s</title></circle>
+<circle cx="95.44183842691305" cy="538.9788478009939" r="4" fill="#d62728" opacity="0.7"><title>Random: 22, 0.0036s</title></circle>
+<circle cx="97.05283108268182" cy="538.5475817534312" r="4" fill="#d62728" opacity="0.7"><title>Random: 23, 0.0051s</title></circle>
+<circle cx="103.49680170575692" cy="538.5337518867228" r="4" fill="#d62728" opacity="0.7"><title>Random: 27, 0.0052s</title></circle>
+<circle cx="103.49680170575692" cy="537.5721527872165" r="4" fill="#d62728" opacity="0.7"><title>Random: 27, 0.0086s</title></circle>
+<circle cx="113.16275764036958" cy="538.2924348247686" r="4" fill="#d62728" opacity="0.7"><title>Random: 33, 0.0060s</title></circle>
+<circle cx="113.16275764036958" cy="534.6921536057188" r="4" fill="#d62728" opacity="0.7"><title>Random: 33, 0.0188s</title></circle>
+<circle cx="114.77375029613836" cy="540.0" r="4" fill="#d62728" opacity="0.7"><title>Random: 34, 0.0000s</title></circle>
+<circle cx="117.9957356076759" cy="536.2659359887089" r="4" fill="#d62728" opacity="0.7"><title>Random: 36, 0.0132s</title></circle>
+<circle cx="134.10566216536364" cy="540.0" r="4" fill="#d62728" opacity="0.7"><title>Random: 46, 0.0000s</title></circle>
+<circle cx="135.71665482113244" cy="532.6947257139647" r="4" fill="#d62728" opacity="0.7"><title>Random: 47, 0.0259s</title></circle>
+<circle cx="137.3276474769012" cy="529.1571022583696" r="4" fill="#d62728" opacity="0.7"><title>Random: 48, 0.0384s</title></circle>
+<circle cx="140.54963278843877" cy="539.3350374292818" r="4" fill="#d62728" opacity="0.7"><title>Random: 50, 0.0024s</title></circle>
+<circle cx="142.16062544420754" cy="527.0620185731229" r="4" fill="#d62728" opacity="0.7"><title>Random: 51, 0.0458s</title></circle>
+<circle cx="145.38261075574508" cy="530.1395872790275" r="4" fill="#d62728" opacity="0.7"><title>Random: 53, 0.0349s</title></circle>
+<circle cx="145.38261075574508" cy="539.1411370531853" r="4" fill="#d62728" opacity="0.7"><title>Random: 53, 0.0030s</title></circle>
+<circle cx="155.04856669035772" cy="540.0" r="4" fill="#d62728" opacity="0.7"><title>Random: 59, 0.0000s</title></circle>
+<circle cx="163.1035299692016" cy="540.0" r="4" fill="#d62728" opacity="0.7"><title>Random: 64, 0.0000s</title></circle>
+<circle cx="163.1035299692016" cy="538.842524829153" r="4" fill="#d62728" opacity="0.7"><title>Random: 64, 0.0041s</title></circle>
+<circle cx="164.71452262497039" cy="538.2568723103753" r="4" fill="#d62728" opacity="0.7"><title>Random: 65, 0.0062s</title></circle>
+<circle cx="166.32551528073915" cy="522.8910436707148" r="4" fill="#d62728" opacity="0.7"><title>Random: 66, 0.0606s</title></circle>
+<circle cx="166.32551528073915" cy="519.4807114372733" r="4" fill="#d62728" opacity="0.7"><title>Random: 66, 0.0727s</title></circle>
+<circle cx="188.879412461502" cy="538.3121917772094" r="4" fill="#d62728" opacity="0.7"><title>Random: 80, 0.0060s</title></circle>
+<circle cx="192.10139777303954" cy="505.42702668185245" r="4" fill="#d62728" opacity="0.7"><title>Random: 82, 0.1225s</title></circle>
+<circle cx="193.71239042880833" cy="509.2161279177998" r="4" fill="#d62728" opacity="0.7"><title>Random: 83, 0.1091s</title></circle>
+<circle cx="195.3233830845771" cy="538.2373976001124" r="4" fill="#d62728" opacity="0.7"><title>Random: 84, 0.0062s</title></circle>
+<circle cx="198.54536839611467" cy="500.8544211605428" r="4" fill="#d62728" opacity="0.7"><title>Random: 86, 0.1387s</title></circle>
+<circle cx="206.60033167495854" cy="498.84711479256833" r="4" fill="#d62728" opacity="0.7"><title>Random: 91, 0.1458s</title></circle>
+<circle cx="209.82231698649608" cy="491.347375646081" r="4" fill="#d62728" opacity="0.7"><title>Random: 93, 0.1724s</title></circle>
+<circle cx="209.82231698649608" cy="537.8617332615615" r="4" fill="#d62728" opacity="0.7"><title>Random: 93, 0.0076s</title></circle>
+<circle cx="211.43330964226487" cy="537.2368490800801" r="4" fill="#d62728" opacity="0.7"><title>Random: 94, 0.0098s</title></circle>
+<circle cx="213.04430229803364" cy="451.8704444899756" r="4" fill="#d62728" opacity="0.7"><title>Random: 95, 0.3122s</title></circle>
+<text x="400.0" y="30.0" text-anchor="middle" font-family="Arial" font-size="16" font-weight="bold">Computation Time vs Vertices</text>
+<text x="400.0" y="590" text-anchor="middle" font-family="Arial" font-size="14">Number of Vertices</text>
+<text x="15" y="300.0" text-anchor="middle" transform="rotate(-90, 15, 300.0)" font-family="Arial" font-size="14">Time (seconds)</text>
+<circle cx="640" cy="80" r="4" fill="#1f77b4"/>
+<text x="650" y="84" font-family="Arial" font-size="12">Bipartite</text>
+<circle cx="640" cy="100" r="4" fill="#ff7f0e"/>
+<text x="650" y="104" font-family="Arial" font-size="12">FixedDegree</text>
+<circle cx="640" cy="120" r="4" fill="#2ca02c"/>
+<text x="650" y="124" font-family="Arial" font-size="12">Mesh</text>
+<circle cx="640" cy="140" r="4" fill="#d62728"/>
+<text x="650" y="144" font-family="Arial" font-size="12">Random</text>
+</svg>

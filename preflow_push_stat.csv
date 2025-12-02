@@ -1,9 +1,0 @@
-Graph_File,Graph_Type,Vertices,Edges,Space_Complexity,s-t_Paths,Expected_Max_Flow,Actual_Max_Flow,Status,Computation_Time_Seconds
-Random/n10-m10-cmin5-cmax10-f30.txt,Random,11,46,O(11+46),953,25,25,PASS,0.000000
-Random/n100-m100-cmin10-cmax20-f949.txt,Random,101,6844,O(101+6844),>10000,949,949,PASS,0.368586
-Mesh/smallMesh.txt,Mesh,14,31,O(14+31),243,6,6,PASS,0.000000
-Mesh/mediumMesh.txt,Mesh,202,570,O(202+570),>10000,39,39,PASS,0.041974
-Bipartite/g1.txt,Bipartite,32,230,O(32+230),200,150,150,PASS,0.000000
-Bipartite/g2.txt,Bipartite,72,640,O(72+640),570,898,898,PASS,0.053444
-FixedDegree/20v-3out-4min-355max.txt,FixedDegree,22,66,O(22+66),>10000,368,368,PASS,0.002073
-FixedDegree/100v-5out-25min-200max.txt,FixedDegree,102,510,O(102+510),>10000,517,517,PASS,0.067621
