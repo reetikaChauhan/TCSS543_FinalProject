@@ -30,13 +30,13 @@ python Algorithms/FordFulkerson.py <input_file>
 
 **Example:**
 ```bash
-python Algorithms/FordFulkerson.py Mesh/smallMesh.txt
+python Algorithms/FordFulkerson/FordFulkerson.py Mesh/smallMesh.txt
 ```
 
 ### Command-Line Options
 
 ```
-python Algorithms/FordFulkerson.py input_file
+python Algorithms/FordFulkerson/FordFulkerson.py input_file
 
 Arguments:
   input_file            Path to input graph file (required)
