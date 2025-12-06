@@ -3,7 +3,7 @@
 ## Summary
 The project consist of Algorithms folder which has 3 subfolders FordFulkerson, ScalingFordFulkerson and PreflowPush. Each file contains python file for algorithm code, read me file (explain code , input and output and how to run the file) and automatedtest files (to test the algorithm for all newly generated graphs) and this code will output csv files in the respective folders. 
 
-
+```
 
 TCSS543_FINALPROJECT/
 │
@@ -46,7 +46,7 @@ TCSS543_FINALPROJECT/
 ├── USAGE_GUIDE.md                            # Top-level user instructions
 └── .gitignore
 
-
+```
 
 ---
 
