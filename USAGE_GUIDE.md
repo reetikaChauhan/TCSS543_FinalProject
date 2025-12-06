@@ -5,11 +5,11 @@ The project consist of Algorithms folder which has 3 subfolders FordFulkerson, S
 
 
 Flow of the project:
-- Run GraphGenerators/generate_graphs.py
-- Run automated_fordfulkerson.py
-- Run automated_preflowpush.py 
-- Run automated_scalingFordFukerson.py 
-- Run ResultCompare.py
+- Run GraphGenerators/generate_graphs.py (see graph generation procedure below)
+- Run automated_fordfulkerson.py (see automated_runscriptscsv.md in Algorithms File)
+- Run automated_preflowpush.py (see automated_runscriptscsv.md in Algorithms File)
+- Run automated_scalingFordFukerson.py (see automated_runscriptscsv.md in Algorithms File)
+- Run ResultCompare.py (see ResultCompareREADME.md in Algorithms File)
 ```
 
 TCSS543_FINALPROJECT/
@@ -57,6 +57,48 @@ TCSS543_FINALPROJECT/
 
 ---
 
+## Generating More Graphs
+
+### Generate Additional Test Graphs
+
+```bash
+cd TCSS543_FinalProject
+
+# Generate 50 more graphs of each type
+python GraphGenerators/generate_graphs.py --count 50
+
+# Generate 100 graphs of each type
+python GraphGenerators/generate_graphs.py --count 100
+
+# Custom output directory
+python GraphGenerators/generate_graphs.py --count 25 --output-dir MyGraphs
+```
+
+### Generator Parameters
+
+The generator creates graphs with randomized parameters:
+
+**Bipartite:**
+- Left nodes: 10-100
+- Right nodes: 10-100
+- Edge probability: 0.3-1.0
+- Capacities: 1-200
+
+**Fixed-Degree:**
+- Vertices: 20-200
+- Out-degree: 3-10
+- Capacities: 1-300
+
+**Mesh:**
+- Rows: 3-20
+- Columns: 3-20
+- Capacities: 1-100
+- Mix of constant and random capacity
+
+**Random:**
+- Vertices: 10-150
+- Density: 30-80%
+- Capacities: 1-200
 
 
 ### Run Algorithm on a Graph
