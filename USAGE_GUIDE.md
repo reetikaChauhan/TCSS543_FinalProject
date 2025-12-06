@@ -5,11 +5,11 @@ The project consist of Algorithms folder which has 3 subfolders FordFulkerson, S
 
 
 Flow of the project:
-- Run GraphGenerators/generate_graphs.py (see graph generation procedure below)
-- Run automated_fordfulkerson.py (see automated_runscriptscsv.md in Algorithms File)
-- Run automated_preflowpush.py (see automated_runscriptscsv.md in Algorithms File)
-- Run automated_scalingFordFukerson.py (see automated_runscriptscsv.md in Algorithms File)
-- Run ResultCompare.py (see ResultCompareREADME.md in Algorithms File)
+- Run GraphGenerators/generate_graphs.py              *(see graph generation procedure below)*
+- Run automated_fordfulkerson.py                      *(see automated_runscriptscsv.md in Algorithms File)*
+- Run automated_preflowpush.py                        *(see automated_runscriptscsv.md in Algorithms File)*
+- Run automated_scalingFordFukerson.py                *(see automated_runscriptscsv.md in Algorithms File)*
+- Run ResultCompare.py                                *(see ResultCompareREADME.md in Algorithms File)*
 ```
 
 TCSS543_FINALPROJECT/
