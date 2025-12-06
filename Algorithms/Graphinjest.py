@@ -21,6 +21,8 @@ augment(f, P)
  Endfor
  Return(f)
 '''
+
+# This loads the graph from the input file and returns adjacency list for use as residual graph
 def load_graph(path):
     graph = {}
     edge_count = 0
@@ -49,6 +51,8 @@ def load_graph(path):
     num_nodes = len(graph)
     return graph, num_nodes, edge_count
 
+
+# Prints adjacency list for easy understanding of data structure
 def print_graph(graph):
     print("\nGraph Adjacency List\n")
     for u in graph:

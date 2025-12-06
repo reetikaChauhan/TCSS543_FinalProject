@@ -14,7 +14,7 @@ sff = pd.read_csv(os.path.join(BASE, "ScalingFordFulkerson", "results_scaling_ff
 pf = pd.read_csv(os.path.join(BASE, "PreflowPush", "results_preflowpush_generated.csv"))
 
 # Make set up for dataframe that joins all results and keeps number of Aug Paths for FF and SFF
-# and distinct times for easier comparison
+# and distinct times for all algorithms for easy comparison
 ff_sel = ff[[
     "Graph_File", "Graph_Type", "Vertices", "Edges", "Space_Complexity", 
     "Actual_Max_Flow", "Augmenting_s-t_Paths", "Computation_Time_Seconds"
@@ -182,15 +182,6 @@ for g in df["Graph_Type"].unique():
     plt.savefig(f"plot_{g}_boxplot_log.png", dpi=300)
     plt.show()
 
-# Violin Plots 
-plt.figure(figsize=(10,6))
-sns.violinplot(data=df[["FF_Time", "SFF_Time", "PF_Time"]], scale="width")
-plt.yscale("log")
-plt.title("Runtime Distribution (Violin Plot, log scale)")
-plt.ylabel("Time (seconds, log scale)")
-plt.savefig("plot_runtime_violin_log.png", dpi=300)
-plt.show()
-
 # Split the Time-Per-Edge Plot per Graph Type
 for alg in ["FF_TimePerEdge", "SFF_TimePerEdge", "PF_TimePerEdge"]:
     plt.figure(figsize=(10,5))
@@ -244,10 +235,8 @@ plt.ylabel("Graph Index (Rows)")
 plt.savefig("plot_winner_mosaic.png", dpi=300)
 plt.show()
 
-# ============================
-# DONUT CHART OF WINS
-# ============================
 
+# DONUT CHART OF WINS
 # Determine winner for each graph
 winners = []
 for _, row in df.iterrows():
